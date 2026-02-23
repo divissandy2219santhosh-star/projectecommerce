@@ -1,0 +1,6 @@
+{%autoescape off%}
+hi {{user.name}}
+please click this below link to verify your account
+
+http://{{domain}}/{%url 'activate uid=64uif token=token %'}
+{% endautoescape  off %}
