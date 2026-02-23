@@ -24,6 +24,13 @@ const productReducer=combineReducers({
     productCreate:productCreateReducers,
     productUpdate:productUpdateReducers,
     productDelete:productDeleteReducers,
+    userRegister:userRegisterReducers,
+    userDetails:userDetailsReducers,
+    userUpdateProfile:userUpdateProfileReducers,
+    userList:userlistReducers,
+    userDelete:userDeleteReducers,
+    userUpdate:userUpdateReducers,
+    
 })
 
 const userinfofromstorage=localStorage.getItem('userInfo')?JSON.parse(localStorage.getItem('userInfo')):null
