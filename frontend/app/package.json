@@ -1,19 +1,41 @@
 {
   "name": "app",
+<<<<<<< HEAD
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+=======
+  "proxy": "http://127.0.0.1:8000",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@redux-devtools/extension": "^3.3.0",
+>>>>>>> 9286a9866adad29763e83d60e6e4defb88d9cc37
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.13.5",
+<<<<<<< HEAD
     "bootstrap": "^5.3.8",
     "react": "^19.2.4",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.2.4",
     "react-router-dom": "^7.13.1",
     "react-scripts": "5.0.1",
+=======
+    "react": "^19.2.4",
+    "react-bootstrap": "2.10.10",
+    "react-devtools": "^7.0.1",
+    "react-dom": "^19.2.4",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "redux": "^5.0.1",
+    "redux-devtools-extension": "^3.3.0",
+    "redux-logger": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+>>>>>>> 9286a9866adad29763e83d60e6e4defb88d9cc37
     "web-vitals": "^2.1.4"
   },
   "scripts": {
