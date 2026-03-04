@@ -2,10 +2,17 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
+<<<<<<< HEAD
+=======
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+>>>>>>> 49ed4c375b3886912249c93c4f6652e0e9b9fa27
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -21,5 +28,16 @@
     "path": "^0.12.7",
     "socket.io": "^4.8.3",
     "speakeasy": "^2.0.0"
+=======
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.2",
+    "nodejs": "^0.0.0",
+    "nodemon": "^3.1.14",
+    "prompt-sync": "^4.2.0",
+    "server.js": "^1.0.0"
+>>>>>>> 49ed4c375b3886912249c93c4f6652e0e9b9fa27
   }
 }

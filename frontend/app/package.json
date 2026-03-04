@@ -1,23 +1,60 @@
 {
   "name": "app",
+<<<<<<< HEAD
   "version": "0.1.0",
   "proxy": "http://localhost:5000",
   "description": "",
   "main": "index.js",
   "private": true,
   "dependencies": {
+=======
+<<<<<<< HEAD
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+=======
+  "proxy": "http://127.0.0.1:8000",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@redux-devtools/extension": "^3.3.0",
+>>>>>>> 9286a9866adad29763e83d60e6e4defb88d9cc37
+>>>>>>> 49ed4c375b3886912249c93c4f6652e0e9b9fa27
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "axios": "^1.13.6",
+=======
+    "axios": "^1.13.5",
+<<<<<<< HEAD
+>>>>>>> 49ed4c375b3886912249c93c4f6652e0e9b9fa27
     "bootstrap": "^5.3.8",
     "react": "^19.2.4",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.2.4",
+<<<<<<< HEAD
     "react-router-bootstrap": "^0.26.3",
     "react-router-dom": "^7.13.1",
     "react-scripts": "5.0.1",
+=======
+    "react-router-dom": "^7.13.1",
+    "react-scripts": "5.0.1",
+=======
+    "react": "^19.2.4",
+    "react-bootstrap": "2.10.10",
+    "react-devtools": "^7.0.1",
+    "react-dom": "^19.2.4",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "redux": "^5.0.1",
+    "redux-devtools-extension": "^3.3.0",
+    "redux-logger": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+>>>>>>> 9286a9866adad29763e83d60e6e4defb88d9cc37
+>>>>>>> 49ed4c375b3886912249c93c4f6652e0e9b9fa27
     "web-vitals": "^2.1.4"
   },
   "scripts": {
